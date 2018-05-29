@@ -1,0 +1,32 @@
+* {
+  border: 1px solid red;
+}
+
+header {
+  display: flex;
+  font-family: verdana;
+  font-size: 14px;
+  font-weight: bold;
+  height: 80px;
+  width: 100%;
+  align-items: center;
+}
+
+header nav {
+  padding-right: 40px;
+}
+
+.logo {
+  color: MediumAquamarine;
+  padding-left: 30px;
+  flex-grow: 1;
+}
+
+nav span {
+  display: inline-block;
+  padding: 20px 10px;
+}
+
+nav a {
+  color: black;
+}
