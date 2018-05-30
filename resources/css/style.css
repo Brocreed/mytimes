@@ -70,3 +70,7 @@ div {
 .cookie {
   display: block;
 }
+
+.storymain {
+  background-image: url("resources\Images\img-story-main.png");
+}
