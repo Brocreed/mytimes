@@ -42,37 +42,31 @@ div {
   padding-top: 116px;
   display: flex;
   width: 1232px;
+  margin: 0 auto 78px auto;
 }
 
-.large {
-  width: 630px;
-  order: 1
-
-}
-
-.medium {
-  width: 300px;
-  order: 2
-}
-
-.small {
-  width: 240px;
-  order: 3
-}
-
-.large, .medium, .small {
+.column {
   display: flex;
   flex-direction: column;
   margin-right: 32px;
-  margin-top: 0;
+}
+
+.column.large {
+  width: 630px;
+}
+
+.column.medium {
+  width: 300px;
+}
+
+.column.small {
+  width: 240px;
 }
 
 .cats, .cameras, .earth {
   display: flex;
 }
 
-
-
 .cookie {
-  overflow: hidden;
+  display: block;
 }
