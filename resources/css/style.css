@@ -10,6 +10,8 @@ header {
   z-index: 10;
   position: fixed;
   background-color: white;
+  left: 0;
+  top: 0;
 }
 
 header nav {
@@ -71,6 +73,75 @@ div {
   display: block;
 }
 
-.storymain {
+.image {
+  height: 300px;
+  margin-top: 15px;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  text-align: center;
+}
+
+ .main .image {
   background-image: url("../images/img-story-main.png");
+  display: flex;
+  width: 630px;
+  margin-top: 0;
+  font-size: 40px;
+  flex-direction: column;
+}
+
+.main span {
+  margin-right: 60px;
+  text-align: left;
+}
+
+.storycontent {
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
+}
+
+.earth {
+  background-image: url("../images/img-story-2.png");
+  width: 630px;
+  margin-top: 0;
+  font-size: 40px;
+}
+
+.camera {
+  background-image: url("../images/img-story-3.png");
+  width: 630px;
+  margin-top: 0;
+  font-size: 40px;
+}
+
+.cat {
+  background-image: url("../images/img-story-1.png");
+  width: 300px;
+  margin-top: 0;
+  font-size: 40px;
+}
+
+.story {
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}
+
+p {
+  display: block;
+}
+
+.storyblock {
+  height: 250px;
+}
+
+.stories {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 17px;
 }
